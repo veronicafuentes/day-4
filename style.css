@@ -1,0 +1,81 @@
+html {
+	font-family: "Verdana";
+	font-size: 18px;
+	color: black;
+}
+
+body {
+	padding: 15px;
+	margin: 15px;
+	background-color: aliceblue;
+/*	background: linear-gradient(to bottom, blue, lightblue, aliceblue);
+*/
+}
+
+.siteStructure {
+	display: grid;
+	min-height: 100vh;
+	grid-template-columns: 30% 40% 30%;
+	grid-template-rows: auto 1fr auto;
+}
+
+header {
+	background-color: blue;
+	padding: 10px;
+	border-radius: 15px;
+	width: auto;
+	grid-column-start: 2;
+	color: aliceblue;
+}
+
+h1 {
+	font-size: 42px;
+	text-align: center;
+}
+
+h5 {
+	font-size: 12px;
+	text-align: center;
+}
+
+nav {
+	background-color: aliceblue;
+	padding: 10px;
+	width: auto;
+	grid-column-start: 1;
+}
+
+h2 {
+	text-align: center;
+}
+
+p {
+	text-align: left;
+}
+
+a {
+	color: black;
+	margin: 15px;
+}
+
+main {
+	background-color: aliceblue;
+	padding: 10px;
+	width: auto;
+}
+
+aside {
+	background-color: aliceblue;
+	padding: 15px;
+	width: auto;
+}
+
+footer {
+	text-align: center;
+	background-color: blue;
+	padding: 10px;
+	width: auto;
+	border-radius: 15px;
+	grid-column: span 3;
+	color: aliceblue;
+}
